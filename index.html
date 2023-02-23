@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' rel='stylesheet'
+        integrity='sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD' crossorigin='anonymous'>
+    <title>Clone Document</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script type="module" src="./index.js"></script>
+
+    <style>
+        body.debug .container,
+        body.debug .container-fluid {
+            outline: 2px double blue;
+            outline-offset: -2px;
+        }
+
+        body.debug .row {
+            outline: 2px dashed red;
+            outline-offset: -2px;
+        }
+
+        body.debug [class*="col-"] {
+            outline: 2px dotted forestgreen;
+            outline-offset: -3px;
+        }
+    </style>
+
+
+
+</head>
+
+<body class="text-light">
+
+    <header class="hero-image container-fluid">
+        <div class="row p-main copy-hero">
+
+            <div class="col-12">
+            </div>
+            <div class="col-3">
+                <h1>Styl.us</h1>
+                <p>
+                    Turn your pen into your best friend. Make every line you write count.
+                </p>
+                <button class="btn btn-info text-light">Get Your Stylus</button>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+
+
+        <section class="row background-blue p1 sect2 justify-content-around">
+            <div class="col-10">
+                <div class="row">
+                    <!-- NOTE this is how to add the little thingies -->
+                    <div class="col-3 text-center">
+                        <i class="mdi mdi-notebook-edit-outline text-icon-size"></i>
+                        <h5>Natural Writing</h5>
+                        <p>
+                            Don't change your habits, write with a pen on paper notebooks
+                        </p>
+                    </div>
+
+                    <div class="col-3 text-center">
+                        <i class="mdi mdi-monitor-screenshot text-icon-size"></i>
+
+                        <h5>Sync & Copy</h5>
+                        <p>
+                            Stylus will copy your text on your computer in real time.
+                        </p>
+                    </div>
+
+                    <div class="col-3 text-center">
+                        <i class="mdi mdi-chart-donut text-icon-size"></i>
+                        <h5>Analytics</h5>
+                        <p>
+                            Get feedbacks on the way you write your favorite words and your favorite mistakes.
+                        </p>
+                    </div>
+
+                    <div class="col-3 text-center">
+                        <i class="mdi mdi-content-save-all text-icon-size"></i>
+                        <h5>Storing Your Texts</h5>
+                        <p>
+                            Everything you've written with your stylus is stored in the cloud so that it's never lost.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+
+
+        <section class="row text-dark p1">
+            <div class="col-12 text-center">
+                <h1>Get news from stylus</h1>
+                <p>Leave us your mail and get stylus news</p>
+                <nav>
+
+                </nav>
+                <button class="btn btn-info">
+                    Subscribe
+                </button>
+            </div>
+        </section>
+
+        <footer class="villain-image">
+            <!--The div element for the map -->
+            <div id="map"></div>
+
+            <!-- 
+      The `defer` attribute causes the callback to execute after the full HTML
+      document has been parsed. For non-blocking uses, avoiding race conditions,
+      and consistent behavior across browsers, consider loading using Promises
+      with https://www.npmjs.com/package/@googlemaps/js-api-loader.
+      -->
+            <script
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+                defer></script>
+        </footer>
+
+
+
+    </main>
+
+    <div class="row">
+
+    </div>
+
+
+
+
+</body>
+
+</html>

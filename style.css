@@ -1,0 +1,49 @@
+
+
+.hero-image {
+    background-image: url(https://startupstockphotos.com/wp-content/uploads/2021/12/ssp033-2000x1333.jpg);
+    min-height: 70vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.background-blue {
+    background-color:#469ae0;
+}
+
+
+.villain-image {
+    /* background-image: url(https://i.stack.imgur.com/HgfKp.png); */
+    min-height: 30vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.p1 {
+
+    padding-top: 6%;
+    padding-bottom: 8%;
+}
+
+.p-main {
+    padding-left: 20%;
+}
+
+.sect2 {
+    height: 400px;
+}
+
+.copy-hero {
+    min-height: 70vh;
+}
+
+.text-icon-size {
+    font-size: 60px;
+}
+
+#map {
+    height: 400px; /* The height is 400 pixels */
+    width: 100%; /* The width is the width of the web page */
+}
